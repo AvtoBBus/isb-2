@@ -62,7 +62,6 @@ void check_the_largest_seq(string bin_str)
         calc_v(str_to_check, v);
         str_to_check.clear();
     }
-    // cout << "[" << v[0] << ", " << v[1] << ", " << v[2] << ", " << v[3] << "]" << endl;
     double chi_square = 0.0;
     for (int i = 0; i < 4; i++)
     {
@@ -127,7 +126,6 @@ char generate_num(int input_i, int start_value, int *num_mas)
         num = num_mas[input_i - 2] * 73129 + 95121;
     num = abs(num) % 100000;
     num *= pow(-1, rand());
-    // cout << num << endl;
     num_mas[input_i - 1] = num;
     if (num < 0)
         return '1';
