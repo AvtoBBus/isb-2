@@ -5,6 +5,7 @@
         "cmath": "cpp",
         "ostream": "cpp",
         "cstdlib": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "chrono": "cpp"
     }
 }
